@@ -72,7 +72,7 @@ Flags are a great way of changing how an expression is understood. A flag forces
  A **bracket expression** `[]` matches a character set that is inside the two brackets. This is shown with this example with a-z being within the two brackets a character will be matched within that example. 
  
  Another example that is not mentioned would be `[0-9]` because it also works numerically as well. 
- Regex will match any single character together, go back to the - [Character Classes](#character-classes) tag to learn more.
+ Regex will match any single character together, go back to the [Character Classes](#character-classes) tag to learn more.
 
 ## Author
 
