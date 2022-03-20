@@ -59,22 +59,19 @@ There are lots of other examples that we could add but would take up too much ti
 ### Flags
 
 Flags are a great way of changing how an expression is understood. A flag forces regex to search things in a different way and is always shown to use a single lowercase letter such as these:
-| letters   | meaning       | 
+| Letters   | Meaning       | 
 | ------------- |:-------------:| 
 | i    | makes an expression case-insensitive |
 | g   | makes an expression search for all occurrences     |   
 | s | makes the character . match newlines      |    
-These letters each have a meaning 
 
 
 ### Bracket Expressions
+ /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+ A bracket expression [] matches a character set that is inside the two brackets. This is shown with this example with a-z being within the two brackets a character will be matched within that example. Another example that is not mentioned would be [0-9] because it also works numerically as well. 
+ Regex will match any single characger together, go back to the character class tag to learn more.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Parker Justice is an aspiring developer with a love for front-end developing. 
