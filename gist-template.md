@@ -58,11 +58,16 @@ A few examles are as follows:
 There are lots of other examples that we could add but would take up too much time. A simple google search or link would give you every character class. 
 ### Flags
 
-### Grouping and Capturing
+Flags are a great way of changing how an expression is understood. A flag forces regex to search things in a different way and is always shown to use a single lowercase letter such as these:
+| letters   | meaning       | 
+| ------------- |:-------------:| 
+| i    | makes an expression case-insensitive |
+| g   | makes an expression search for all occurrences     |   
+| s | makes the character . match newlines      |    
+These letters each have a meaning 
+
 
 ### Bracket Expressions
-
-### Greedy and Lazy Match
 
 ### Boundaries
 
