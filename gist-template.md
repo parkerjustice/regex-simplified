@@ -6,8 +6,8 @@ Regex Simplified is a quick and easy tutorial that explpains what regex (regular
 
 In this tutorial I will be going over what goes into regular expressions and how they are used. Regex is a sequence of patterns that are use to replace characters in strings. These strings and patterns are used for many different things such as URLs, HTML, Email, or even Hex Values. These help create a unique place for specific links to occure. Here is a good example of what a regex is:
 
-## URL REGEX
-# /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+# URL regex
+` /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
 
 We will go further into what regex is and all the details along this tutorial.
 ## Table of Contents
