@@ -6,7 +6,7 @@ Regex Simplified is a quick and easy tutorial that explpains what regex (regular
 
 In this tutorial I will be going over what goes into regular expressions and how they are used. Regex is a sequence of patterns that are use to replace characters in strings. Here is a good example of what a regex is:
 
-/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+## /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 We will go further into what regex is and all the details along this tutorial.
 ## Table of Contents
