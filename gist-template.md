@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Simplified
 
-Introductory paragraph (replace this with your text)
+Regex Simplified is a quick and easy tutorial that explpains what regex (regular expressions) are and their uses. After this tutorial you should find that this is a simple way of learning a daunting new challenge.
 
 ## Summary
 
