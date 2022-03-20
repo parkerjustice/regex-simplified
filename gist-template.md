@@ -32,11 +32,30 @@ We will go further into what regex is and all the details along this tutorial.
 We need to start from the beginning, which would be anchors. Anchors are what the expression has at the beginning and the end that are highlighted. The `^` Matches the beginning of the string while the `$` Matches the end of the string. They are used to signify the beginning or the end of an expression.
 
 ### Quantifiers
+ /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+
+ We will now be going over quantifiers and what they do. A quantifier was used to show how many of the characters are to be expected. This means it shows how often a character, class, or character group would need to be available in the input for any sort of match to become usable. Quantifiers is what we like to call greedy and will match to just about anything they van that is why you need to pay attention to them. 
+
+Here are a few examples of what is being explained:
+
++ matches one or more preceding tokens
+{2,6} this one will match two to six of the previous token
 
 ### OR Operator
+Hex Expression
+/^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+
+The `|`repressents the "or". The "or" is the operator and is shown as using the `|` character. This matches the expression that comes before or after it.
 
 ### Character Classes
+Character classes are used to match a specific character to a set.
+A few examles are as follows:
 
+[A-Z] This shows a "range" of characters and giving the person knowlege that you are able to use every letter between them. 
+.This will accept any input and is a great use if you are in a pinch
+\p This matches a character with unicode.
+
+There are lots of other examples that we could add but would take up too much time. A simple google search or link would give you every character class. 
 ### Flags
 
 ### Grouping and Capturing
